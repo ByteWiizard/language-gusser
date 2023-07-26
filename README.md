@@ -11,7 +11,7 @@ Simple Web App which Uses Franc library from node js to detect languages
 
 # Demo
 
-<video controls>
+
   <img src="images/usage.gif" alt="Usage GIF">
     <!-- Your browser does not support the video tag. -->
-</video>
+
