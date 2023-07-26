@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+
+  #display{
+    /* opacity: 0.4; */
+  }
+  #background-gif {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Push the GIF behind other elements */
+    opacity: 0.4;
+  }
+
+
+#container-header{
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -160%);
+}  
+
+#search-bar{
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#to_detect{
+    width: 800px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+#Detect{
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+#Detect:hover {
+    background-color: rgba(245, 245, 245, 0.549);
+}
+
+
+#overlay{
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    position: fixed;
+    background: rgba(0, 0, 0, 1);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#display{
+
+    background-color: whitesmoke;
+    width: 810px;
+    height: 400px;
+    position: absolute;
+    top: -500%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+#display h3#text-heading{
+    position: absolute;
+    top: 0px;
+    left: 350px;
+}
+
+#display h3#lang-heading{
+    position: absolute;
+    top: 200px;
+    left: 325px;
+}
+
+#display p#text-desc{
+
+    position: absolute;
+    top:30px;
+    left:50px;
+    font-weight: 100;
+}
+
+#display p#lang-desc{
+    position: absolute;
+    top: 250px;
+    left: 380px;
+    font-weight: 500;
+}
