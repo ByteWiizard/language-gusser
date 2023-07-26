@@ -8,3 +8,10 @@ Simple Web App which Uses Franc library from node js to detect languages
 2. install node js from official website
 3. npm install  
 4. ./node_modules/.bin/webpack ./app.mjs --mode=development ## this will transpile the code
+
+# Demo
+
+<video controls>
+  <source src="images/usage.webm" type="video/webm">
+
+</video>
