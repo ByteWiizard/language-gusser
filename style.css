@@ -110,3 +110,11 @@ body {
     left: 380px;
     font-weight: 500;
 }
+
+#cross{
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    cursor: pointer;
+    /* background-color: aqua; */
+}
