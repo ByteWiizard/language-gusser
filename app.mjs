@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const backContent = document.querySelector('#container');
     const textDisplay = document.querySelector('#display #text-desc')
     const LanguageDisplay = document.querySelector('#display #lang-desc')
+    const close = document.querySelector('#cross');
 
 
     detect.addEventListener('click', function () {
@@ -47,8 +48,13 @@ document.addEventListener('DOMContentLoaded', function () {
                     LanguageDisplay.innerText = language.name;
                 }
                 
-
-
+                close.addEventListener('click',function(){
+                    display.style.zIndex = '-1';
+                    display.style.top = '-500%';
+                    backContent.style.zIndex = '1';
+                    overlay.style.opacity = 0;
+                    textDisplay.innerText = ' ';
+                })
 
 
             }
