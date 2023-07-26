@@ -12,6 +12,6 @@ Simple Web App which Uses Franc library from node js to detect languages
 # Demo
 
 <video controls>
-  <source src="images/usage.webm" type="video/webm">
+  <source src="images/usage.gif" type="video/webm">
 
 </video>
