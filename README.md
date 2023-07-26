@@ -10,3 +10,9 @@ Simple Web App which Uses Franc library from node js to detect languages
 3. npm install  
 4. ./node_modules/.bin/webpack ./app.mjs --mode=development ## this will transpile the code
 
+# Example
+<video controls>
+  <source src="path/to/your/webm-file.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
